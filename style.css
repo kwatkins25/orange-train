@@ -1,0 +1,48 @@
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 34px;
+}
+
+.titleScreen {
+  display: block;
+}
+
+.characterintro {
+  display: none;
+}
+
+.choosepathscreen{
+    display: none;
+}
+
+.confirmpathscreen{
+    display: none;
+}
+
+.askscreen{
+    display: none;
+}
+
+.askmomscreen{
+    display: none;
+}
+
+.thinkscreen{
+    display: none;
+}
+
+.madeupscreen{
+    display: none;
+}
+
+.playagainscreen{
+    display: none;
+}
+
