@@ -1,48 +1,160 @@
 
-h1 {
+
+body {
+  margin: 0;
+  background-image: url("background2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+
+img {
+  width: 1000px;
+  border: 10px solid #997368;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+button {
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #F3E7AD);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #F3E7AD);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #F3E7AD);
+   background-image: -o-linear-gradient(top, #FFFFFF, #F3E7AD);
+   background-image: -webkit-gradient(to bottom, #FFFFFF, #F3E7AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #000000;
+   font-family: Courier New;
+   font-size: 32px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #FFAE00;
+   border: solid #997368 6px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+
+
+
+.titleScreen {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 60px;
+    font-size: 52px;
+    color: rgb(0, 0, 0);
 }
+
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
 h2{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     font-size: 34px;
 }
 
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 34px;
+    color:#FFFFFF;
+}
+
+
 .titleScreen {
   display: block;
 }
+
 
 .characterintro {
   display: none;
 }
 
+
 .choosepathscreen{
     display: none;
 }
+
 
 .confirmpathscreen{
     display: none;
 }
 
+
 .askscreen{
     display: none;
 }
+
 
 .askmomscreen{
     display: none;
 }
 
+
 .thinkscreen{
     display: none;
 }
+
 
 .madeupscreen{
     display: none;
 }
 
+
 .playagainscreen{
     display: none;
+}
+
+
+.chooseAIscreen{
+    display:none
+}
+
+
+.talkingAIscreen{
+    display:none
+}
+
+
+.confrontscreen{
+    display:none
+}
+
+
+.warningscreen{
+    display:none
+}
+
+
+.futurescreen{
+    display:none
+}
+
+
+.checkscreen{
+    display:none
+}
+
+
+.sourcesscreen{
+    display:none;
 }
 
